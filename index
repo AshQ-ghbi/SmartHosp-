@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartHosp+ | AI-Powered Hospital Intelligence Platform</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Smart<span>Hosp+</span></div>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#founder">Founder</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="#contact" class="btn-nav">Request Demo</a>
+</nav>
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <span class="badge">AI-DRIVEN HEALTHCARE</span>
+
+        <h1>
+            Intelligence Behind<br>
+            Every Patient Journey
+        </h1>
+
+        <p>
+            Transforming hospital operations through
+            AI-powered scheduling, emergency prioritization,
+            resource optimization and predictive analytics.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#services" class="btn-primary">
+                Explore Platform
+            </a>
+
+            <a href="#contact" class="btn-secondary">
+                Request Demo
+            </a>
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200"
+        alt="Healthcare Technology">
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="stat">
+        <h2>65%</h2>
+        <p>Reduced Wait Time</p>
+    </div>
+
+    <div class="stat">
+        <h2>2.4x</h2>
+        <p>Resource Efficiency</p>
+    </div>
+
+    <div class="stat">
+        <h2>100%</h2>
+        <p>Emergency Prioritization</p>
+    </div>
+
+    <div class="stat">
+        <h2>24/7</h2>
+        <p>Monitoring</p>
+    </div>
+
+</section>
+
+<section id="about" class="section">
+
+    <div class="section-title">
+        <h2>About SmartHosp+</h2>
+        <p>Modern healthcare intelligence for smarter hospitals.</p>
+    </div>
+
+    <div class="about-grid">
+
+        <div class="card">
+            <h3>Our Mission</h3>
+            <p>
+                To empower hospitals with intelligent systems
+                that streamline operations and improve patient care.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Our Vision</h3>
+            <p>
+                Building a future where AI helps hospitals
+                operate efficiently and save more lives.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Why SmartHosp+</h3>
+            <p>
+                Designed to tackle overcrowding, scheduling
+                challenges and resource inefficiencies.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="services" class="section">
+
+<h2 class="center-title">Our Services</h2>
+
+<div class="service-grid">
+
+<div class="service-card">
+<i class="fas fa-calendar-check"></i>
+<h3>Appointment Management</h3>
+<p>AI-assisted scheduling and queue optimization.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-truck-medical"></i>
+<h3>Emergency Prioritization</h3>
+<p>Instant triage support for critical patients.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-bed"></i>
+<h3>Bed Tracking</h3>
+<p>Real-time hospital resource monitoring.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-users"></i>
+<h3>Staff Optimization</h3>
+<p>Intelligent workforce scheduling.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-chart-line"></i>
+<h3>Predictive Analytics</h3>
+<p>Forecast patient demand and resource usage.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-laptop-medical"></i>
+<h3>Executive Dashboard</h3>
+<p>Centralized management and monitoring.</p>
+</div>
+
+</div>
+</section>
+
+<section id="features" class="section dark">
+
+<h2 class="center-title">Platform Features</h2>
+
+<div class="feature-grid">
+
+<div class="feature">
+<h3>AI Queue Prediction</h3>
+<p>Predict waiting times and optimize patient flow.</p>
+</div>
+
+<div class="feature">
+<h3>Smart Resource Management</h3>
+<p>Track beds, equipment and staff in real time.</p>
+</div>
+
+<div class="feature">
+<h3>Emergency Detection</h3>
+<p>Automatically identify high-risk cases.</p>
+</div>
+
+<div class="feature">
+<h3>Analytics Engine</h3>
+<p>Data-driven insights for hospital leaders.</p>
+</div>
+
+</div>
+</section>
+
+<section id="founder" class="section">
+
+<div class="founder-container">
+
+<div class="founder-image">
+<img src="assets/ashish.jpg" alt="Ashish Kumar">
+</div>
+
+<div class="founder-content">
+
+<span class="founder-badge">
+FOUNDER & VISIONARY
+</span>
+
+<h2>Ashish Kumar (AshQ)</h2>
+
+<h4>
+Engineering Student | Healthcare Tech Enthusiast
+</h4>
+
+<p>
+Healthcare professionals should focus on saving lives,
+not managing operational complexity. SmartHosp+ is my
+vision for a smarter healthcare ecosystem powered by AI.
+</p>
+
+<div class="social-links">
+
+<a href="https://www.linkedin.com/in/ashish-kumar-ashq-ln03" target="_blank">
+<i class="fab fa-linkedin"></i> LinkedIn
+</a>
+
+<a href="https://github.com/AshQ-ghbi" target="_blank">
+<i class="fab fa-github"></i> GitHub
+</a>
+
+</div>
+
+</div>
+</div>
+
+</section>
+
+<section class="testimonials section">
+
+<h2 class="center-title">What Experts Say</h2>
+
+<div class="testimonial-grid">
+
+<div class="testimonial">
+<p>
+"An innovative concept demonstrating how AI can improve
+hospital operations and patient experience."
+</p>
+<h4>Healthcare Consultant</h4>
+</div>
+
+<div class="testimonial">
+<p>
+"SmartHosp+ showcases a strong understanding of
+healthcare workflow optimization."
+</p>
+<h4>Technology Researcher</h4>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="section">
+
+<h2 class="center-title">Contact Us</h2>
+
+<form class="contact-form">
+
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email Address" required>
+<input type="text" placeholder="Organization">
+
+<textarea rows="6"
+placeholder="Tell us about your requirements">
+</textarea>
+
+<button type="submit">
+Request Demo
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<h3>SmartHosp+</h3>
+
+<p>
+AI-Powered Hospital Intelligence Platform
+</p>
+
+<p>
+Designed & Conceptualized by Ashish Kumar (AshQ)
+</p>
+
+<div class="footer-links">
+<a href="https://github.com/AshQ-ghbi">GitHub</a>
+<a href="https://www.linkedin.com/in/ashish-kumar-ashq-ln03">LinkedIn</a>
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
