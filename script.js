@@ -1,25 +1,14 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
-anchor.addEventListener('click',function(e){
-e.preventDefault();
+// =========================
+// MOBILE MENU
+// =========================
 
-document.querySelector(
-this.getAttribute('href')
-).scrollIntoView({
-behavior:'smooth'
-});
-});
-});
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("navMenu");
 
-const observer = new IntersectionObserver(entries=>{
-entries.forEach(entry=>{
-if(entry.isIntersecting){
-entry.target.classList.add('show');
-}
-});
-});
+if (hamburger && navMenu) {
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    });
 
-document.querySelectorAll(
-'.card,.service-card,.feature,.testimonial'
-).forEach(el=>{
-observer.observe(el);
-});
+    document.querySelectorAll(".
